@@ -6,7 +6,7 @@ services:
       context: ./
     container_name: mail-manage-backoffice
     ports:
-      - "3443:${PORT}"
+      - "3443:${NEXT_PUBLIC_PORT}"
     networks:
       - app-net
     environment:
