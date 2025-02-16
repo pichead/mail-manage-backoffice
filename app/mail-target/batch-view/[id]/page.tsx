@@ -1,7 +1,6 @@
 "use client"
 import { apis } from '@/services/api'
 import { alert } from '@/utils/alert'
-import { useRouter } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 
 const TargetBatchViewPage = ({ params }: { params: { id: string } }) => {

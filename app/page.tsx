@@ -1,12 +1,10 @@
 "use client"
 import { apis } from "@/services/api";
 import { alert } from "@/utils/alert";
-import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
 export default function Home() {
 
-  const router = useRouter()
 
   const [mails, setMails] = useState<IMailTargetBatch[]>([])
   const [mailSystem, setmailSystem] = useState<IMailSystem[]>([])
